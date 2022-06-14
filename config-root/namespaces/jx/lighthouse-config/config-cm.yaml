@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - joshyunho/jx3-k8s-3
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.207.192.68.193.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
