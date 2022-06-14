@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        joshyunho/golang-test: true
         joshyunho/jx3-k8s-3: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        joshyunho/golang-test: merge
         joshyunho/jx3-k8s-3: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - joshyunho/jx3-k8s-3
+        - joshyunho/golang-test
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - joshyunho/jx3-k8s-3
+        - joshyunho/golang-test
       target_url: http://lighthouse-jx.207.192.68.193.nip.io/merge/status
 kind: ConfigMap
 metadata:
