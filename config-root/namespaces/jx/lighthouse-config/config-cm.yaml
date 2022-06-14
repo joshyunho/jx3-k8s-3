@@ -10,6 +10,7 @@ data:
         joshyunho/golang-test: true
         joshyunho/jx3-k8s-3: true
         joshyunho/vertx-rest-prometheus: true
+        joshyunho/vertx-rest-prometheus2: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -24,6 +25,7 @@ data:
         joshyunho/golang-test: merge
         joshyunho/jx3-k8s-3: merge
         joshyunho/vertx-rest-prometheus: merge
+        joshyunho/vertx-rest-prometheus2: merge
       queries:
       - labels:
         - approved
@@ -37,6 +39,7 @@ data:
         - joshyunho/jx3-k8s-3
         - joshyunho/golang-test
         - joshyunho/vertx-rest-prometheus
+        - joshyunho/vertx-rest-prometheus2
       - labels:
         - updatebot
         missingLabels:
@@ -49,6 +52,7 @@ data:
         - joshyunho/jx3-k8s-3
         - joshyunho/golang-test
         - joshyunho/vertx-rest-prometheus
+        - joshyunho/vertx-rest-prometheus2
       target_url: http://lighthouse-jx.207.192.68.193.nip.io/merge/status
 kind: ConfigMap
 metadata:

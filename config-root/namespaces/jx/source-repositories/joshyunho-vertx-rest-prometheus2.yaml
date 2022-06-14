@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: joshyunho
+    provider: github
+    repository: vertx-rest-prometheus2
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: joshyunho-vertx-rest-prometheus2
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/joshyunho/vertx-rest-prometheus2.git
+  org: joshyunho
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: vertx-rest-prometheus2
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/joshyunho/vertx-rest-prometheus2
