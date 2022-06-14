@@ -9,6 +9,7 @@ data:
       enabled:
         joshyunho/golang-test: true
         joshyunho/jx3-k8s-3: true
+        joshyunho/rust-http: true
         joshyunho/vertx-rest-prometheus: true
         joshyunho/vertx-rest-prometheus2: true
     plank: {}
@@ -24,6 +25,7 @@ data:
       merge_method:
         joshyunho/golang-test: merge
         joshyunho/jx3-k8s-3: merge
+        joshyunho/rust-http: merge
         joshyunho/vertx-rest-prometheus: merge
         joshyunho/vertx-rest-prometheus2: merge
       queries:
@@ -38,6 +40,7 @@ data:
         repos:
         - joshyunho/jx3-k8s-3
         - joshyunho/golang-test
+        - joshyunho/rust-http
         - joshyunho/vertx-rest-prometheus
         - joshyunho/vertx-rest-prometheus2
       - labels:
@@ -51,6 +54,7 @@ data:
         repos:
         - joshyunho/jx3-k8s-3
         - joshyunho/golang-test
+        - joshyunho/rust-http
         - joshyunho/vertx-rest-prometheus
         - joshyunho/vertx-rest-prometheus2
       target_url: http://lighthouse-jx.207.192.68.193.nip.io/merge/status
