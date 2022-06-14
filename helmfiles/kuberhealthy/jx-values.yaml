@@ -49,9 +49,6 @@ jxRequirements:
     username: joshyunho
   repository: bucketrepo
   secretStorage: local
-  storage:
-  - name: jenkins-x-test
-    url: s3://jenkins-x-test.alpha.linodeobjects.com
   vault: {}
   webhook: lighthouse
 jxRequirementsIngressExternalDNS:

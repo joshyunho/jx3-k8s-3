@@ -32,6 +32,3 @@ spec:
     pipelineUsername: "joshyunho"
     pipelineUserEmail: "jenkins-x@googlegroups.com"
     prowConfig: Scheduler
-    storageLocations:
-      - bucketUrl: "s3://jenkins-x-test.alpha.linodeobjects.com"
-        classifier: "jenkins-x-test"
