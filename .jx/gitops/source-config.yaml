@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: golang-test
+    - name: vertx-rest-prometheus
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
