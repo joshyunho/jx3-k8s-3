@@ -17,20 +17,24 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: joshyunho
+    repository: jx3-k8s-3
   - key: staging
   - key: production
-  storage:
-  - name: linode-test
-    url: s3://jenkins-x-test.alpha.linodeobjects.com
   ingress:
-    domain: ""
-    externalDNS: false
+    domain: 207.192.68.193.nip.io
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: joshyunho
   repository: bucketrepo
   secretStorage: local
+  storage:
+  - name: linode-test
+    url: s3://jenkins-x-test.alpha.linodeobjects.com
   vault: {}
   webhook: lighthouse
