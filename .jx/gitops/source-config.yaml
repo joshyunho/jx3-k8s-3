@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: golang-test
     - name: vertx-rest-prometheus
+    - name: vertx-rest-prometheus2
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
