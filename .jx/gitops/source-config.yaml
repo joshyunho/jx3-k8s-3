@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: golang-test
+    - name: rust-http
     - name: vertx-rest-prometheus
     - name: vertx-rest-prometheus2
     scheduler: in-repo
