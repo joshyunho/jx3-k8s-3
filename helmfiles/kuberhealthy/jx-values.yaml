@@ -50,7 +50,7 @@ jxRequirements:
   repository: bucketrepo
   secretStorage: local
   storage:
-  - name: linode-test
+  - name: jenkins-x-test
     url: s3://jenkins-x-test.alpha.linodeobjects.com
   vault: {}
   webhook: lighthouse

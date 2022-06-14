@@ -34,4 +34,4 @@ spec:
     prowConfig: Scheduler
     storageLocations:
       - bucketUrl: "s3://jenkins-x-test.alpha.linodeobjects.com"
-        classifier: "linode-test"
+        classifier: "jenkins-x-test"
