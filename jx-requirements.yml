@@ -33,8 +33,5 @@ spec:
     username: joshyunho
   repository: bucketrepo
   secretStorage: local
-  storage:
-  - name: default
-    url: gs://bucketrepo
   vault: {}
   webhook: lighthouse
