@@ -50,10 +50,8 @@ jxRequirements:
   repository: bucketrepo
   secretStorage: local
   storage:
-  - name: jenkins-x-test
-    url: s3://jenkins-x-test
-  - name: cpc3-josh
-    url: s3://cpc3-josh
+  - name: default
+    url: gs://bucketrepo
   vault: {}
   webhook: lighthouse
 jxRequirementsIngressExternalDNS:

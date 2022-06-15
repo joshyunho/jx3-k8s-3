@@ -15,6 +15,9 @@ spec:
     gitServer: https://github.com
     provider: kubernetes
     registry: ghcr.io
+  storage:
+  - name: default
+    url: gs://bucketrepo
   environments:
   - key: dev
     owner: joshyunho
