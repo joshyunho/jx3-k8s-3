@@ -32,3 +32,6 @@ spec:
     pipelineUsername: "joshyunho"
     pipelineUserEmail: "jenkins-x@googlegroups.com"
     prowConfig: Scheduler
+    storageLocations:
+      - bucketUrl: "gs://bucketrepo"
+        classifier: "default"

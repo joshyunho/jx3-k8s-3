@@ -15,9 +15,6 @@ spec:
     gitServer: https://github.com
     provider: kubernetes
     registry: ghcr.io
-  storage:
-  - name: default
-    url: gs://bucketrepo
   environments:
   - key: dev
     owner: joshyunho
@@ -36,5 +33,8 @@ spec:
     username: joshyunho
   repository: bucketrepo
   secretStorage: local
+  storage:
+  - name: default
+    url: gs://bucketrepo
   vault: {}
   webhook: lighthouse
