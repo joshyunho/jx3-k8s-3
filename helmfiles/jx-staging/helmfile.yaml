@@ -1,0 +1,11 @@
+filepath: ""
+namespace: jx-staging
+repositories:
+- name: dev
+  url: http://bucketrepo-jx.207.192.68.193.nip.io
+releases:
+- chart: dev/vertx-rest-prometheus2
+  version: 0.0.1
+  name: vertx-rest-prometheus2
+templates: {}
+renderedvalues: {}
